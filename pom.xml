@@ -69,6 +69,10 @@
 					<!-- One of: server, serverGroup, cluster: -->
 					<targetType>cluster</targetType>
 					<environment>Sandbox</environment>
+					<arguments>
+					    <argument>-M-Dport.1=1337</argument>
+					    <argument>-M-Dport.2=1338</argument>
+					</arguments>
 				</configuration>
 
 				<executions>
